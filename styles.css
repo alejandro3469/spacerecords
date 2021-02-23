@@ -1,7 +1,7 @@
 :root {
-    --primary: #e1bee7;
-    --primary_light: #fff1ff;
-    --primary_dark: #af8eb5;
+    --primary: #90caf9;
+    --primary_light: #bbdefb;
+    --primary_dark: #1976d2;
     --on_primary: #000000;
     --secondary: #000000;
     --on_secondary: #ffffff;
@@ -168,8 +168,6 @@ h5{
     z-index: 1;
 
     flex: 0 1 auto;
-
-    display: none; /*ón hold*/
 }
 .footer_container ul{
     display: flex;
@@ -198,7 +196,9 @@ h5{
 .nf{
     margin-left: 36px;
 }
-
+.bt{
+    max-width: 520px;
+}
 /*  Media quieries  */
 @media screen and (max-width: 1024px) { /*tablets*/
 
