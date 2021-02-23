@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/home.css">
+    <title>Inicio - Space Records</title>
+</head>
+<body>
+    <nav>
+        <div class=" nav_container nav_container2">
+            <span class="material-icons hamburger" onclick="show()">menu</span>
+            <span class="denier" id="denier"  onclick="hide()"></span>
+            <a href="index.html" class="logo h">S<span class="logo_low_emphasis">pace</span> R<span class="logo_low_emphasis">ecords</span></a>
+            <ul id="drawer">
+                <li><a href="index.html" class="current_page h">Inicio</a></li>
+            </ul>
+        </div>
+        <div class="nav_container">
+            <a href="index.html" class="logo h">S<span class="logo_low_emphasis">pace</span> R<span class="logo_low_emphasis">ecords</span></a>
+            <ul>
+                <li><a href="index.html" class="current_page h">Inicio</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="content_container">
+        <div class="banner">
+            <h1 class="accent h h3">Título / Frase principal</h1>
+            <p class="bt" style="z-index: 1;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Etiam eget orci ac urna hendrerit ultrices ac vitae mi. 
+                Duis turpis purus, feugiat ut lobortis eget, tempor in sapien. 
+                Proin malesuada, nulla faucibus volutpat imperdiet, eros orci eleifend nunc, vitae efficitur neque orci lobortis ipsum. Integer rhoncus aliquam condimentum. Nulla iaculis lectus orci.
+            </p>
+            <br>
+            <a class="button" href="#" style="margin-top: 30px;">Donec vitae</a>
+            <br>
+            <!--<img class="banner_image" src="#" alt="">-->
+        </div><br>
+    </div>
+    <div class="footer_container">
+        <ul style="list-style-position: inside;">
+            <li><span href="#" class="fa fa-facebook"></span></li>
+            <li><span href="#" class="fa fa-twitter nf"></span></li>
+            <li><span href="#" class="fa fa-instagram nf"></span></li>
+        </ul>
+    </div>
+    <script src="scripts/navigationDrawer.js"></script>
+</body>
+</html>
