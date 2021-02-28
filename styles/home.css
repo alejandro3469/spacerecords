@@ -29,6 +29,12 @@
 .button2{
     margin-right: 10px;
 }
+.images_banner{
+    width: 100%;
+}
+.images_banner img{
+    width: 100%;
+}
 /*  Media quieries  */
 @media screen and (max-width: 1024px) { /*tablets*/
 
