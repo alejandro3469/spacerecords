@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/home.css">
+    <link rel="stylesheet" type="text/css" href="styles/cards.css">
     <title>Inicio - Space Records</title>
 </head>
 <body>
@@ -38,7 +39,19 @@
         </div>
     </nav>
     <div class="content_container">
-        
+        <div class="services">
+            <div class="service">
+                <p class="h h6"> <b>Artist name</b> </p>
+                <p class="secondary_text">Brief description</p>
+                <ul class="l1" id="l1">
+                    <li>E-Mail</li>
+                    <li>Phone number</li>
+                </ul>
+                <span class="material-icons button button2" style="cursor: pointer;" id="expand_more1" onclick="expand_more1()">expand_more</span>
+                <span class="material-icons button button2" style="cursor: pointer; display: none;" id="expand_less1" onclick="expand_less1()">expand_less</span>
+                <a href="servicios/galeria/galeria_aereo.html" class="material-icons button">collections</a>
+            </div>
+        </div>
     </div>
     <div class="footer_container">
         <ul style="list-style-position: inside;">
@@ -48,5 +61,6 @@
         </ul>
     </div>
     <script src="scripts/navigationDrawer.js"></script>
+    <script src="scripts/cards.js"></script>
 </body>
 </html>
